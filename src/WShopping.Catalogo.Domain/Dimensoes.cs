@@ -10,9 +10,9 @@ namespace WShopping.Catalogo.Domain
 
         public Dimensoes(decimal altura, decimal largura, decimal profundidade)
         {
-            Validacoes.ValidarSeMenorIgualMinimo(altura, 1, "O campo Altura não pode ser menor do que 1");
-            Validacoes.ValidarSeMenorIgualMinimo(largura, 1, "O campo Largura não pode ser menor do que 1");
-            Validacoes.ValidarSeMenorIgualMinimo(profundidade, 1, "O campo Profundidade não pode ser menor do que 1");
+            Validacoes.ValidarSeMenorQue(altura, 1, "O campo Altura não pode ser menor do que 1");
+            Validacoes.ValidarSeMenorQue(largura, 1, "O campo Largura não pode ser menor do que 1");
+            Validacoes.ValidarSeMenorQue(profundidade, 1, "O campo Profundidade não pode ser menor do que 1");
             Altura = altura;
             Largura = largura;
             Profundidade = profundidade;

@@ -1,0 +1,9 @@
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\bin\Debug\netcoreapp3.0\WShopping.Core.deps.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\bin\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\bin\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.csprojAssemblyReference.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.AssemblyInfoInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.AssemblyInfo.cs
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.csproj.CoreCompileInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.pdb

@@ -77,8 +77,8 @@ namespace WShopping.Catalogo.Domain
             Validacoes.ValidarSeVazio(Nome, "O campo Nome do produto não pode ser vazio");
             Validacoes.ValidarSeVazio(Descricao, "O campo Descrição do produto não pode ser vazio");
             Validacoes.ValidarSeVazio(Imagem, "O campo Imagem do produto não pode ser vazio");
-            Validacoes.ValidarSeMenorIgualMinimo(Valor, 0, "O campo Valor do produto não pode ser 0");
-            Validacoes.ValidarSeDiferente(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode ser vazio");
+            Validacoes.ValidarSeMenorQue(Valor, 1, "O campo Valor do produto não pode ser 0");
+            Validacoes.ValidarSeIgual(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode ser vazio");
         }
     }
 }
