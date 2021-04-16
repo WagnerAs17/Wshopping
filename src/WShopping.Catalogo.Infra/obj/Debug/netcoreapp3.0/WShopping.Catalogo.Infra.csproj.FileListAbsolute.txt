@@ -1,0 +1,13 @@
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.deps.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.csprojAssemblyReference.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.AssemblyInfoInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.AssemblyInfo.cs
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\bin\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\bin\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.csproj.CopyComplete
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.runtimeconfig.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.runtimeconfig.dev.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Infra\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.genruntimeconfig.cache
