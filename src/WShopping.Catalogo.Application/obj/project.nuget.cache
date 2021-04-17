@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UNQEmGitGD2iQ/mNINrnoa7hjnec50RThBosv2I0LBDdpP0viV13YxPD5toLiDkVVww16MKP/W6rsD0S4NXGFQ==",
+  "dgSpecHash": "tKyBMbyECJctqCEga4SJRmqaP+2u6CNSvQ1WOjlnogcL8p6m3TpCAizTiXYOvVEKOsIHUwL0s8bg90/jv4j/Kw==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Catalogo.Application\\WShopping.Catalogo.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\wagne\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

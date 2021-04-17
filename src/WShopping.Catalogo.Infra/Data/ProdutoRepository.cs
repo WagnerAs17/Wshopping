@@ -9,11 +9,11 @@ using WShopping.Core.Data;
 
 namespace WShopping.Catalogo.Infra.Data
 {
-    public class Repository : IProdutoRepository
+    public class ProdutoRepository : IProdutoRepository
     {
         private readonly CatalogoContext _context;
 
-        public Repository(CatalogoContext context)
+        public ProdutoRepository(CatalogoContext context)
         {
             _context = context;
         }

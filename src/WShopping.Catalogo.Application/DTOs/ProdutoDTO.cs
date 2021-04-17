@@ -25,10 +25,10 @@ namespace WShopping.Catalogo.Application.DTOs
         public decimal Valor { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        public string Imagem { get; private set; }
+        public string Imagem { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        public int QuantidadeEstoque { get; private set; }
+        public int QuantidadeEstoque { get; set; }
 
         [Range(1, int.MaxValue, ErrorMessage = "O campo {1} precisar ter o valor mínimo de {1}")]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
@@ -41,6 +41,6 @@ namespace WShopping.Catalogo.Application.DTOs
         [Range(1, int.MaxValue, ErrorMessage = "O campo {1} precisar ter o valor mínimo de {1}")]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public int Profundidade { get; set; }
-        public IEnumerable<CategoriaDTO> Categoria { get; private set; }
+        public IEnumerable<CategoriaDTO> Categorias { get; set; }
     }
 }

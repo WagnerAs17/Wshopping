@@ -6,6 +6,7 @@ C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Domain\bin\Deb
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Domain\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.csprojAssemblyReference.cache
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Domain\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.AssemblyInfoInputs.cache
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Domain\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.AssemblyInfo.cs
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Domain\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.csproj.CoreCompileInputs.cache
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Domain\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.csproj.CopyComplete
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Domain\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.dll
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Domain\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.pdb

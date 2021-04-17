@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "AutoMapper/8.0.0": {
+      "AutoMapper/8.1.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -1335,14 +1335,14 @@
     }
   },
   "libraries": {
-    "AutoMapper/8.0.0": {
-      "sha512": "px8ZMtIq84dxciB29V+ZYOtsRLZP4JlflDDMW13LyeRdwsnIInzlcSHSxpWmVD6U3bbOl2FeLlgomnVtm0jvXw==",
+    "AutoMapper/8.1.1": {
+      "sha512": "GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
       "type": "package",
-      "path": "automapper/8.0.0",
+      "path": "automapper/8.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.8.0.0.nupkg.sha512",
+        "automapper.8.1.1.nupkg.sha512",
         "automapper.nuspec",
         "lib/net461/AutoMapper.dll",
         "lib/net461/AutoMapper.pdb",
@@ -5035,9 +5035,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "AutoMapper >= 8.0.0",
       "WShopping.Catalogo.Domain >= 1.0.0",
-      "WShopping.Catalogo.Infra >= 1.0.0"
+      "WShopping.Catalogo.Infra >= 1.0.0",
+      "automapper >= 8.1.1"
     ]
   },
   "packageFolders": {
@@ -5088,9 +5088,9 @@
     "frameworks": {
       "netcoreapp3.0": {
         "dependencies": {
-          "AutoMapper": {
+          "automapper": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.1.1, )"
           }
         },
         "imports": [

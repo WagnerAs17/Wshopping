@@ -16,6 +16,8 @@ namespace WShopping.Catalogo.Domain
         public Guid CategoriaId { get; private set; }
         public Categoria Categoria { get; private set; }
 
+        //EF
+        protected Produto() { }
         public Produto
         (
             string nome, 
