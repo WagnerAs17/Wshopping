@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rlH8DQtwnLlcEDnEf4YQWqYxC18jOjwcXoJuujpSPImjSpDqu2g/OJ7z+W7wDEzsd+SHbpTk7wzVP1RssegEVw==",
+  "dgSpecHash": "pQhuPfv0wb0cMc8h5w8XtG3r9/srKUI/J/cIVUKFZy17q2XtXf+i+7R+edKzZu25q2dDeo1keQ1A3cKLwM7cYA==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\tests\\WShoppping.Catalogo.Domain.Tests\\WShoppping.Catalogo.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wagne\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
+    "C:\\Users\\wagne\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.net.test.sdk\\16.7.1\\microsoft.net.test.sdk.16.7.1.nupkg.sha512",
