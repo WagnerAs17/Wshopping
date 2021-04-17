@@ -1,0 +1,8 @@
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Application\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Application\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Infra.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Application\bin\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Application\bin\Debug\netcoreapp3.0\WShopping.Catalogo.Domain.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Application\bin\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Application\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Application.csprojAssemblyReference.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Application\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Application.AssemblyInfoInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.Application\obj\Debug\netcoreapp3.0\WShopping.Catalogo.Application.AssemblyInfo.cs
