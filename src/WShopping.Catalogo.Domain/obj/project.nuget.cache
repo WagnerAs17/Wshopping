@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U5UdIW1ZKtJhRR4kCiMjMHnQSnIyDBOFQ6XWzNMflZbc84GUDRbag7NNI0JLrt+wqZja1Tfak6L+lQw5b0hd6g==",
+  "dgSpecHash": "0GiR9TaEhPBrGQcrcMph9WNMGc3KpHo29q0XqSvq4rmYtNb3HNaDlZzckEixEXgyFAr4IEjTnW/b2dXFMT3cUg==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Catalogo.Domain\\WShopping.Catalogo.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\wagne\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

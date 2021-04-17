@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bWAuuH5tcLXGGxHETjXe86BxxPsLDmj2Hnde9bWKFWoeO8RWxxJ118JVxemn/NGt3r1N15LWUADqYEqdMM/wyw==",
+  "dgSpecHash": "JvfS11yc98J1dzj9RUTdOBCy9fZkk8xLMV9f/KEVGbTThjbA8xx/bUD6WzLDBDcL9gO9/Jvr+zmbdI/jn8AsGQ==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Catalogo.Infra\\WShopping.Catalogo.Infra.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wagne\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
