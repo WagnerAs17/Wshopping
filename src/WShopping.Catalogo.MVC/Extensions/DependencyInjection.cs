@@ -6,6 +6,10 @@ using WShopping.Catalogo.Domain.Interfaces;
 using WShopping.Catalogo.Domain.Services;
 using WShopping.Catalogo.Infra.Data;
 using WShopping.Core.Bus;
+using WShopping.Vendas.Application.Commands;
+using WShopping.Vendas.Domain;
+using WShopping.Vendas.Infra.Data;
+using WShopping.Vendas.Infra.Data.Repository;
 
 namespace WShopping.Catalogo.MVC.Extensions
 {
@@ -23,6 +27,12 @@ namespace WShopping.Catalogo.MVC.Extensions
             services.AddScoped<CatalogoContext>();
 
             services.AddScoped<INotificationHandler<ProdutoAbaixoEstoqueEvent>, ProdutoEventHandler>();
+
+            //Vendas
+            services.AddScoped<IPedidoRepository, PedidoRepository>();
+            services.AddScoped<VendasContext>();
+            services.AddScoped<IRequestHandler<AdicionarItemPedidoCommand, bool>, PedidoCommandHandler>();
+
         }
     }
 }

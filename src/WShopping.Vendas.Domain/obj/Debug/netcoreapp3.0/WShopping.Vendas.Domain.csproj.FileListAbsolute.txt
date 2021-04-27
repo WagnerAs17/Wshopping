@@ -1,0 +1,12 @@
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\bin\Debug\netcoreapp3.0\WShopping.Vendas.Domain.deps.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\bin\Debug\netcoreapp3.0\WShopping.Vendas.Domain.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\bin\Debug\netcoreapp3.0\WShopping.Vendas.Domain.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\bin\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\bin\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\obj\Debug\netcoreapp3.0\WShopping.Vendas.Domain.csprojAssemblyReference.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\obj\Debug\netcoreapp3.0\WShopping.Vendas.Domain.AssemblyInfoInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\obj\Debug\netcoreapp3.0\WShopping.Vendas.Domain.AssemblyInfo.cs
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\obj\Debug\netcoreapp3.0\WShopping.Vendas.Domain.csproj.CoreCompileInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\obj\Debug\netcoreapp3.0\WShopping.Vendas.Domain.csproj.CopyComplete
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\obj\Debug\netcoreapp3.0\WShopping.Vendas.Domain.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Vendas.Domain\obj\Debug\netcoreapp3.0\WShopping.Vendas.Domain.pdb

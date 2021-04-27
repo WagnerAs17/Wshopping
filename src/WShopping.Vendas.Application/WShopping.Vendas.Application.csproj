@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WShopping.Core\WShopping.Core.csproj" />
+    <ProjectReference Include="..\WShopping.Vendas.Domain\WShopping.Vendas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0GiR9TaEhPBrGQcrcMph9WNMGc3KpHo29q0XqSvq4rmYtNb3HNaDlZzckEixEXgyFAr4IEjTnW/b2dXFMT3cUg==",
+  "dgSpecHash": "Takh245/wfoyQqxAaDUV9R5nT3/izl8dsqTdcGFyGix9nolhY1e8dQLGTJc3NvVSfXIDNqricDyJVlXhuCXh1Q==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Catalogo.Domain\\WShopping.Catalogo.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wagne\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
   ],
   "logs": []

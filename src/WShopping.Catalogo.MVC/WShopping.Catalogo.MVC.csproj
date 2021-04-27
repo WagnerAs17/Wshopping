@@ -20,6 +20,8 @@
 		<ProjectReference Include="..\WShopping.Catalogo.Domain\WShopping.Catalogo.Domain.csproj" />
 		<ProjectReference Include="..\WShopping.Catalogo.Infra\WShopping.Catalogo.Infra.csproj" />
 		<ProjectReference Include="..\WShopping.Core\WShopping.Core.csproj" />
+		<ProjectReference Include="..\WShopping.Vendas.Application\WShopping.Vendas.Application.csproj" />
+		<ProjectReference Include="..\WShopping.Vendas.Infra\WShopping.Vendas.Infra.csproj" />
 	</ItemGroup>
 
 </Project>

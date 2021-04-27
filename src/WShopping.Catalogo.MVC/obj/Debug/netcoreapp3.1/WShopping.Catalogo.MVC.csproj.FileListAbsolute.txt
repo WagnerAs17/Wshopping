@@ -111,3 +111,10 @@ C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\obj\Debug\
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\obj\Debug\netcoreapp3.1\WShopping.Catalogo.MVC.dll
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\obj\Debug\netcoreapp3.1\WShopping.Catalogo.MVC.pdb
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\obj\Debug\netcoreapp3.1\WShopping.Catalogo.MVC.genruntimeconfig.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\bin\Debug\netcoreapp3.1\WShopping.Vendas.Application.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\bin\Debug\netcoreapp3.1\WShopping.Vendas.Domain.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\bin\Debug\netcoreapp3.1\WShopping.Vendas.Infra.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\bin\Debug\netcoreapp3.1\WShopping.Vendas.Application.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\bin\Debug\netcoreapp3.1\WShopping.Vendas.Infra.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Catalogo.MVC\bin\Debug\netcoreapp3.1\WShopping.Vendas.Domain.pdb

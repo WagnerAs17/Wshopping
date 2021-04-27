@@ -100,3 +100,4 @@ C:\Estudos\DOTNET\Dominios_Ricos\WShopping\tests\WShoppping.Catalogo.Domain.Test
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\tests\WShoppping.Catalogo.Domain.Tests\obj\Debug\netcoreapp3.0\WShoppping.Catalogo.Domain.Tests.pdb
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\tests\WShoppping.Catalogo.Domain.Tests\obj\Debug\netcoreapp3.0\WShoppping.Catalogo.Domain.Tests.genruntimeconfig.cache
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\tests\WShoppping.Catalogo.Domain.Tests\bin\Debug\netcoreapp3.0\MediatR.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\tests\WShoppping.Catalogo.Domain.Tests\bin\Debug\netcoreapp3.0\FluentValidation.dll
