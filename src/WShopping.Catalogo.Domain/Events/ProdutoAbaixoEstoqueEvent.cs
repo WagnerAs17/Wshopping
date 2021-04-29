@@ -1,5 +1,5 @@
 ﻿using System;
-using WShopping.Core.DomainObjects;
+using WShopping.Core.Messages.CommonMessages.DomainEvents;
 
 namespace WShopping.Catalogo.Domain.Events
 {

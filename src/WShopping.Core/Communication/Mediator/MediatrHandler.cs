@@ -1,8 +1,9 @@
 ﻿using MediatR;
 using System.Threading.Tasks;
 using WShopping.Core.Messages;
+using WShopping.Core.Messages.CommonMessages.Notifications;
 
-namespace WShopping.Core.Bus
+namespace WShopping.Core.Communication.Mediator
 {
     public class MediatrHandler : IMediatrHandler
     {
@@ -21,6 +22,11 @@ namespace WShopping.Core.Bus
         public async Task PublicarEvento<T>(T evento) where T : Event
         {
             await _mediator.Publish(evento);
+        }
+
+        public async Task PublicarNoticacao<T>(T notificacao) where T : DomainNotification
+        {
+            await _mediator.Publish(notificacao);
         }
     }
 

@@ -1,7 +1,6 @@
 ﻿using System;
-using WShopping.Core.Messages;
 
-namespace WShopping.Core.DomainObjects
+namespace WShopping.Core.Messages.CommonMessages.DomainEvents
 {
     public class DomainEvent : Event
     {

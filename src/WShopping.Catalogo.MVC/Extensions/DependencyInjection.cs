@@ -5,7 +5,8 @@ using WShopping.Catalogo.Domain.Events;
 using WShopping.Catalogo.Domain.Interfaces;
 using WShopping.Catalogo.Domain.Services;
 using WShopping.Catalogo.Infra.Data;
-using WShopping.Core.Bus;
+using WShopping.Core.Communication.Mediator;
+using WShopping.Core.Messages.CommonMessages.Notifications;
 using WShopping.Vendas.Application.Commands;
 using WShopping.Vendas.Domain;
 using WShopping.Vendas.Infra.Data;
@@ -17,8 +18,11 @@ namespace WShopping.Catalogo.MVC.Extensions
     {
         public static void RegisterServices(this IServiceCollection services)
         {
-            // Domain Bus (Mediator)
+            //(Mediator)
             services.AddScoped<IMediatrHandler, MediatrHandler>();
+
+            //Notification
+            services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
 
             // Catalogo
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
@@ -32,6 +36,8 @@ namespace WShopping.Catalogo.MVC.Extensions
             services.AddScoped<IPedidoRepository, PedidoRepository>();
             services.AddScoped<VendasContext>();
             services.AddScoped<IRequestHandler<AdicionarItemPedidoCommand, bool>, PedidoCommandHandler>();
+
+
 
         }
     }

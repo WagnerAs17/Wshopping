@@ -6,3 +6,4 @@ C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcorea
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.csproj.CoreCompileInputs.cache
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.dll
 C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Core\obj\Debug\netcoreapp3.0\WShopping.Core.csprojAssemblyReference.cache

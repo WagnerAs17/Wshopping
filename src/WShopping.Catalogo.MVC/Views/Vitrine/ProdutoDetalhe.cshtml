@@ -141,6 +141,7 @@
     }
 </style>
 <div class="container">
+    <vc:summary />
     <div class="row">
         <div class="col-xs-4 item-photo">
 
@@ -156,7 +157,7 @@
             <p>@Model.Descricao</p>
 
             <form method="post" asp-controller="Carrinho" asp-action="AdicionarItem">
-                <input type="hidden" id="Id" name="Id" value="@Model.Id"/> 
+                <input type="hidden" id="Id" name="Id" value="@Model.Id" />
 
                 <div class="section" style="padding-bottom:20px;">
                     <h6 class="title-attr"><small>QUANTIDADE</small></h6>
@@ -172,7 +173,7 @@
                     <button class="btn btn-success"><span style="margin-right:20px" aria-hidden="true"></span> Comprar agora!</button>
                 </div>
             </form>
-            
+
         </div>
     </div>
 </div>

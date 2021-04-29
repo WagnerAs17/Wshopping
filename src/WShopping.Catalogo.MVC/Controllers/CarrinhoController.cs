@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using WShopping.Catalogo.Application.Services;
-using WShopping.Core.Bus;
+using WShopping.Core.Communication.Mediator;
+using WShopping.Core.Messages.CommonMessages.Notifications;
 using WShopping.Vendas.Application.Commands;
 
 namespace WShopping.Catalogo.MVC.Controllers
@@ -17,8 +17,9 @@ namespace WShopping.Catalogo.MVC.Controllers
         public CarrinhoController
         (
             IProdutoAppService produtoAppService,
-            IMediatrHandler mediatrHandler
-        )
+            IMediatrHandler mediatrHandler,
+            INotificationHandler<DomainNotification> notifications
+        ) : base(notifications, mediatrHandler)
         {
             _produtoAppService = produtoAppService;
             _mediatrHandler = mediatrHandler;
@@ -44,10 +45,14 @@ namespace WShopping.Catalogo.MVC.Controllers
 
             var command = new AdicionarItemPedidoCommand(ClienteId, produto.Id, produto.Nome, quantidade, produto.Valor);
 
-            var enviado = await _mediatrHandler.EnviarComando(command);
+            await _mediatrHandler.EnviarComando(command);
 
+            if (OperacaoValida())
+            {
+                return RedirectToAction("Index");
+            }
 
-            TempData["Erro"] = "Produto com estoque insuficiente";
+            TempData["Erros"] = ObterMensagensDeErro();
             return RedirectToAction("ProdutoDetalhe", "Vitrine", new { id });
         }
     }
