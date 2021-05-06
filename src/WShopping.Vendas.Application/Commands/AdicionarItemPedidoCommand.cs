@@ -1,5 +1,5 @@
-﻿using FluentValidation;
-using System;
+﻿using System;
+using FluentValidation;
 using WShopping.Core.Messages;
 
 namespace WShopping.Vendas.Application.Commands
@@ -24,7 +24,6 @@ namespace WShopping.Vendas.Application.Commands
         public override bool EhValido()
         {
             ValidationResult = new AdicionarItemPedidoValidation().Validate(this);
-
             return ValidationResult.IsValid;
         }
     }
@@ -35,11 +34,11 @@ namespace WShopping.Vendas.Application.Commands
         {
             RuleFor(c => c.ClienteId)
                 .NotEqual(Guid.Empty)
-                .WithMessage("O Id do cliente é inválido");
+                .WithMessage("Id do cliente inválido");
 
             RuleFor(c => c.ProdutoId)
                 .NotEqual(Guid.Empty)
-                .WithMessage("O Id do produto é inválido");
+                .WithMessage("Id do produto inválido");
 
             RuleFor(c => c.Nome)
                 .NotEmpty()
@@ -47,7 +46,7 @@ namespace WShopping.Vendas.Application.Commands
 
             RuleFor(c => c.Quantidade)
                 .GreaterThan(0)
-                .WithMessage("A quantidade mínima é 1");
+                .WithMessage("A quantidade miníma de um item é 1");
 
             RuleFor(c => c.Quantidade)
                 .LessThan(15)
@@ -55,7 +54,7 @@ namespace WShopping.Vendas.Application.Commands
 
             RuleFor(c => c.ValorUnitario)
                 .GreaterThan(0)
-                .WithMessage("O valor precisa ser maior que 0");
+                .WithMessage("O valor do item precisa ser maior que 0");
         }
     }
 }

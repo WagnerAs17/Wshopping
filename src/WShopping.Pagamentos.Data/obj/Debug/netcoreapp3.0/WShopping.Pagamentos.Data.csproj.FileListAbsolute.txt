@@ -1,0 +1,17 @@
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.deps.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.runtimeconfig.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.runtimeconfig.dev.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.csprojAssemblyReference.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.AssemblyInfoInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.AssemblyInfo.cs
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.csproj.CoreCompileInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.csproj.CopyComplete
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Data\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Data.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.deps.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\bin\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.csprojAssemblyReference.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.AssemblyInfoInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.AssemblyInfo.cs
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.csproj.CoreCompileInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.csproj.CopyComplete
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.AntiCorruption\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.AntiCorruption.pdb

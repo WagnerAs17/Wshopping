@@ -2,15 +2,23 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using WShopping.Core.Communication.Mediator;
 using WShopping.Core.Data;
+using WShopping.Core.Messages;
 using WShopping.Vendas.Domain;
 
 namespace WShopping.Vendas.Infra.Data
 {
     public class VendasContext : DbContext, IUnitOfWork
     {
-        public VendasContext(DbContextOptions<VendasContext> options) : base(options)
+        private readonly IMediatrHandler _mediatrHandler;
+        public VendasContext
+        (
+            DbContextOptions<VendasContext> options,
+            IMediatrHandler mediatrHandler
+        ) : base(options)
         {
+            _mediatrHandler = mediatrHandler;
         }
 
         public DbSet<Pedido> Pedidos { get; set; }
@@ -22,6 +30,8 @@ namespace WShopping.Vendas.Infra.Data
             foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(
                 e => e.GetProperties().Where(x => x.ClrType == typeof(string))))
                 property.SetColumnType("varchar(100)");
+
+            modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(VendasContext).Assembly);
 
@@ -50,7 +60,11 @@ namespace WShopping.Vendas.Infra.Data
                 }
             }
 
-            return await base.SaveChangesAsync() > 0;
+            var success = await base.SaveChangesAsync() > 0;
+            
+            if(success) await _mediatrHandler.PublicarEvento(this);
+
+            return success;
         }
     }
 }

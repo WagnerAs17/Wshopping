@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluentValidation.Results;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using WShopping.Core.DomainObjects;
@@ -31,11 +32,16 @@ namespace WShopping.Vendas.Domain
             _pedidoItems = new List<PedidoItem>();
         }
 
-        public void AplicarVoucher(Voucher voucher)
+        public ValidationResult AplicarVoucher(Voucher voucher)
         {
+            var validationResult = voucher.ValidarSeAplicavel();
+            if (!validationResult.IsValid) return validationResult;
+
             Voucher = voucher;
             VoucherUtilizado = true;
             CalcularValorPedido();
+
+            return validationResult;
         }
 
         public void CalcularValorPedido()
@@ -72,7 +78,7 @@ namespace WShopping.Vendas.Domain
             ValorTotal = valor < 0 ? 0 : valor;
         }
 
-        public bool PedidoItemExitente(PedidoItem item)
+        public bool PedidoItemExistente(PedidoItem item)
         {
             return _pedidoItems.Any(p => p.ProdutoId == item.ProdutoId);
         }
@@ -83,7 +89,7 @@ namespace WShopping.Vendas.Domain
 
             item.AssociarPedido(Id);
 
-            if (PedidoItemExitente(item))
+            if (PedidoItemExistente(item))
             {
                 var itemExistente = _pedidoItems.FirstOrDefault(p => p.ProdutoId == item.ProdutoId);
 
@@ -142,7 +148,7 @@ namespace WShopping.Vendas.Domain
             Status = PedidoStatus.Rascunho;
         }
 
-        public void IniciarPedio()
+        public void IniciarPedido()
         {
             Status = PedidoStatus.Iniciado;
         }

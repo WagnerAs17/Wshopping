@@ -12,6 +12,7 @@ using AutoMapper;
 using WShopping.Catalogo.Infra.Data;
 using WShopping.Catalogo.MVC.Extensions;
 using WShopping.Vendas.Infra.Data;
+using WShopping.Pagamentos.Data;
 
 namespace WShopping.Catalogo.MVC
 {
@@ -40,6 +41,9 @@ namespace WShopping.Catalogo.MVC
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.AddDbContext<PagamentoContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();

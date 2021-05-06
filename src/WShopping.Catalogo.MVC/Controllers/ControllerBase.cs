@@ -30,7 +30,7 @@ namespace WShopping.Catalogo.MVC.Controllers
 
         protected void NotificarErro(string codigo, string mensagem)
         {
-            _mediatorHandler.PublicarNoticacao(new DomainNotification(codigo, mensagem));
+            _mediatorHandler.PublicarNotificacao(new DomainNotification(codigo, mensagem));
         }
 
         protected IEnumerable<string> ObterMensagensDeErro()

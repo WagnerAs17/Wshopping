@@ -33,7 +33,7 @@ namespace WShopping.Catalogo.Domain.Services
             // TODO: Parametrizar a quantidade
             if(produto.QuantidadeEstoque < 10)
             {
-                await _mediator.PublicarEvento
+                await _mediator.PublicarDomainEvent
                 (
                     new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque)
                 );

@@ -4,6 +4,75 @@
     "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Catalogo.MVC\\WShopping.Catalogo.MVC.csproj": {}
   },
   "projects": {
+    "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\EventSourcing\\EventSourcing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\EventSourcing\\EventSourcing.csproj",
+        "projectName": "EventSourcing",
+        "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\EventSourcing\\EventSourcing.csproj",
+        "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\EventSourcing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Core\\WShopping.Core.csproj": {
+                "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Core\\WShopping.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "EventStore.Client": {
+              "target": "Package",
+              "version": "[21.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Catalogo.Application\\WShopping.Catalogo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -241,6 +310,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\EventSourcing\\EventSourcing.csproj": {
+                "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\EventSourcing\\EventSourcing.csproj"
+              },
               "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Catalogo.Application\\WShopping.Catalogo.Application.csproj": {
                 "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Catalogo.Application\\WShopping.Catalogo.Application.csproj"
               },
@@ -252,6 +324,12 @@
               },
               "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Core\\WShopping.Core.csproj": {
                 "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Core\\WShopping.Core.csproj"
+              },
+              "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.AntiCorruption\\WShopping.Pagamentos.AntiCorruption.csproj": {
+                "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.AntiCorruption\\WShopping.Pagamentos.AntiCorruption.csproj"
+              },
+              "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Data\\WShopping.Pagamentos.Data.csproj": {
+                "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Data\\WShopping.Pagamentos.Data.csproj"
               },
               "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Vendas.Application\\WShopping.Vendas.Application.csproj": {
                 "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Vendas.Application\\WShopping.Vendas.Application.csproj"
@@ -366,6 +444,202 @@
             "MediatR": {
               "target": "Package",
               "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.AntiCorruption\\WShopping.Pagamentos.AntiCorruption.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.AntiCorruption\\WShopping.Pagamentos.AntiCorruption.csproj",
+        "projectName": "WShopping.Pagamentos.AntiCorruption",
+        "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.AntiCorruption\\WShopping.Pagamentos.AntiCorruption.csproj",
+        "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.AntiCorruption\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Business\\WShopping.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Business\\WShopping.Pagamentos.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Business\\WShopping.Pagamentos.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Business\\WShopping.Pagamentos.Business.csproj",
+        "projectName": "WShopping.Pagamentos.Business",
+        "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Business\\WShopping.Pagamentos.Business.csproj",
+        "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Core\\WShopping.Core.csproj": {
+                "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Core\\WShopping.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Data\\WShopping.Pagamentos.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Data\\WShopping.Pagamentos.Data.csproj",
+        "projectName": "WShopping.Pagamentos.Data",
+        "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Data\\WShopping.Pagamentos.Data.csproj",
+        "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Core\\WShopping.Core.csproj": {
+                "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Core\\WShopping.Core.csproj"
+              },
+              "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Business\\WShopping.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\Estudos\\DOTNET\\Dominios_Ricos\\WShopping\\src\\WShopping.Pagamentos.Business\\WShopping.Pagamentos.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [

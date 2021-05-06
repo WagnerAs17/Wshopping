@@ -33,11 +33,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WShopping.Catalogo.Applicat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WShopping.Catalogo.MVC", "src\WShopping.Catalogo.MVC\WShopping.Catalogo.MVC.csproj", "{44B43225-F4DF-40CE-8695-64EC49998766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WShopping.Vendas.Domain", "src\WShopping.Vendas.Domain\WShopping.Vendas.Domain.csproj", "{792D3F9D-8F61-4F4C-BD73-851C8E72D12C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WShopping.Vendas.Domain", "src\WShopping.Vendas.Domain\WShopping.Vendas.Domain.csproj", "{792D3F9D-8F61-4F4C-BD73-851C8E72D12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WShopping.Vendas.Infra", "src\WShopping.Vendas.Infra\WShopping.Vendas.Infra.csproj", "{217FED29-0CD8-43C8-987C-6E2C21C60EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WShopping.Vendas.Infra", "src\WShopping.Vendas.Infra\WShopping.Vendas.Infra.csproj", "{217FED29-0CD8-43C8-987C-6E2C21C60EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WShopping.Vendas.Application", "src\WShopping.Vendas.Application\WShopping.Vendas.Application.csproj", "{10F3F88E-519B-436D-9796-EADFF4922828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WShopping.Vendas.Application", "src\WShopping.Vendas.Application\WShopping.Vendas.Application.csproj", "{10F3F88E-519B-436D-9796-EADFF4922828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{B9B08ED3-5D85-4D93-AF81-C3808FE0DF68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing", "src\EventSourcing\EventSourcing.csproj", "{1BA695CE-7DF8-470C-9763-5D4332623E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WShopping.Pagamentos.AntiCorruption", "src\WShopping.Pagamentos.AntiCorruption\WShopping.Pagamentos.AntiCorruption.csproj", "{406E49DB-AD40-4043-899B-E0260D7D4381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WShopping.Pagamentos.Business", "src\WShopping.Pagamentos.Business\WShopping.Pagamentos.Business.csproj", "{ABB1B240-5269-4456-B569-5F9B67E4271E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WShopping.Pagamentos.Data", "src\WShopping.Pagamentos.Data\WShopping.Pagamentos.Data.csproj", "{2EE10050-AEE2-44CB-87E0-4A886E5FBB1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +91,22 @@ Global
 		{10F3F88E-519B-436D-9796-EADFF4922828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10F3F88E-519B-436D-9796-EADFF4922828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10F3F88E-519B-436D-9796-EADFF4922828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA695CE-7DF8-470C-9763-5D4332623E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA695CE-7DF8-470C-9763-5D4332623E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA695CE-7DF8-470C-9763-5D4332623E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA695CE-7DF8-470C-9763-5D4332623E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406E49DB-AD40-4043-899B-E0260D7D4381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406E49DB-AD40-4043-899B-E0260D7D4381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406E49DB-AD40-4043-899B-E0260D7D4381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406E49DB-AD40-4043-899B-E0260D7D4381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB1B240-5269-4456-B569-5F9B67E4271E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB1B240-5269-4456-B569-5F9B67E4271E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB1B240-5269-4456-B569-5F9B67E4271E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB1B240-5269-4456-B569-5F9B67E4271E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE10050-AEE2-44CB-87E0-4A886E5FBB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE10050-AEE2-44CB-87E0-4A886E5FBB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE10050-AEE2-44CB-87E0-4A886E5FBB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE10050-AEE2-44CB-87E0-4A886E5FBB1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +128,10 @@ Global
 		{792D3F9D-8F61-4F4C-BD73-851C8E72D12C} = {08406260-C82E-4866-B36F-54E5033BEDA7}
 		{217FED29-0CD8-43C8-987C-6E2C21C60EFA} = {08406260-C82E-4866-B36F-54E5033BEDA7}
 		{10F3F88E-519B-436D-9796-EADFF4922828} = {08406260-C82E-4866-B36F-54E5033BEDA7}
+		{1BA695CE-7DF8-470C-9763-5D4332623E84} = {B9B08ED3-5D85-4D93-AF81-C3808FE0DF68}
+		{406E49DB-AD40-4043-899B-E0260D7D4381} = {86ED3B9A-346F-4502-8FE7-1382DBEAB00A}
+		{ABB1B240-5269-4456-B569-5F9B67E4271E} = {86ED3B9A-346F-4502-8FE7-1382DBEAB00A}
+		{2EE10050-AEE2-44CB-87E0-4A886E5FBB1A} = {86ED3B9A-346F-4502-8FE7-1382DBEAB00A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B9290A08-E4BC-47C8-8DBC-D681FB3399D4}
