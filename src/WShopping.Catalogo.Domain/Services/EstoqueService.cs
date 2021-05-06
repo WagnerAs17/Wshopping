@@ -2,23 +2,23 @@
 using System.Threading.Tasks;
 using WShopping.Catalogo.Domain.Events;
 using WShopping.Catalogo.Domain.Interfaces;
-using WShopping.Core.Bus;
+using WShopping.Core.Communication.Mediator;
 
 namespace WShopping.Catalogo.Domain.Services
 {
     public class EstoqueService : IEstoqueService
     {
         private readonly IProdutoRepository _produtoRepository;
-        private readonly IMediatrHandler _bus;
+        private readonly IMediatrHandler _mediator;
 
         public EstoqueService
         (
             IProdutoRepository produtoRepository,
-            IMediatrHandler bus
+            IMediatrHandler mediator
         )
         {
             _produtoRepository = produtoRepository;
-            _bus = bus;
+            _mediator = mediator;
         }
         public async Task<bool> DebitarEstoque(Guid produtoId, int quantidade)
         {
@@ -33,7 +33,7 @@ namespace WShopping.Catalogo.Domain.Services
             // TODO: Parametrizar a quantidade
             if(produto.QuantidadeEstoque < 10)
             {
-                await _bus.PublicarEvento
+                await _mediator.PublicarDomainEvent
                 (
                     new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque)
                 );

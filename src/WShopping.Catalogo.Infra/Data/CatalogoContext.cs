@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WShopping.Catalogo.Domain;
 using WShopping.Core.Data;
+using WShopping.Core.Messages;
 
 namespace WShopping.Catalogo.Infra.Data
 {
@@ -21,6 +22,8 @@ namespace WShopping.Catalogo.Infra.Data
             foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(
                 e => e.GetProperties().Where(x => x.ClrType == typeof(string))))
                 property.SetColumnType("varchar(100)");
+
+            modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
 

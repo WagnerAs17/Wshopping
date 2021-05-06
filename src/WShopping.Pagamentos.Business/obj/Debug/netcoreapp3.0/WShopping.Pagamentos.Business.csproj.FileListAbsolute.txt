@@ -1,0 +1,12 @@
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.deps.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\bin\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\bin\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\bin\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.csprojAssemblyReference.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.AssemblyInfoInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.AssemblyInfo.cs
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.csproj.CoreCompileInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.csproj.CopyComplete
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\WShopping.Pagamentos.Business\obj\Debug\netcoreapp3.0\WShopping.Pagamentos.Business.pdb

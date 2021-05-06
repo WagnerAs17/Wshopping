@@ -1,0 +1,12 @@
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\bin\Debug\netcoreapp3.0\EventSourcing.deps.json
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\bin\Debug\netcoreapp3.0\EventSourcing.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\bin\Debug\netcoreapp3.0\EventSourcing.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\bin\Debug\netcoreapp3.0\WShopping.Core.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\bin\Debug\netcoreapp3.0\WShopping.Core.pdb
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\obj\Debug\netcoreapp3.0\EventSourcing.csprojAssemblyReference.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\obj\Debug\netcoreapp3.0\EventSourcing.AssemblyInfoInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\obj\Debug\netcoreapp3.0\EventSourcing.AssemblyInfo.cs
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\obj\Debug\netcoreapp3.0\EventSourcing.csproj.CoreCompileInputs.cache
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\obj\Debug\netcoreapp3.0\EventSourcing.csproj.CopyComplete
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\obj\Debug\netcoreapp3.0\EventSourcing.dll
+C:\Estudos\DOTNET\Dominios_Ricos\WShopping\src\EventSourcing\obj\Debug\netcoreapp3.0\EventSourcing.pdb
